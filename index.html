@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Princely Makhwara - Software Developer Portfolio</title>
+    <meta name="description" content="I'm a skilled software developer proficient in HTML, CSS, JavaScript, SQL, and Photoshop. Check out my projects and get in touch!">
+    <meta name="keywords" content="software developer, HTML, CSS, JavaScript, SQL, Photoshop, portfolio, web development">
+    <meta name="author" content="Princely Makhwara">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <meta property="og:title" content="Princely Makhwara- Software Developer Portfolio">
+    <meta property="og:description" content="I'm a skilled software developer proficient in HTML, CSS, JavaScript, SQL, and Photoshop. Check out my projects and get in touch!">
+    <meta property="og:image" content="your-image-url.jpg">
+    <meta property="og:url" content="https://www.yourportfolio.com">
+    <meta property="og:type" content="website">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Princely Makhwara - Software Developer Portfolio">
+    <meta name="twitter:description" content="I'm a skilled software developer proficient in HTML, CSS, JavaScript, SQL, and Photoshop. Check out my projects and get in touch!">
+    <meta name="twitter:image" content="your-image-url.jpg">
+    
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#3498db">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Princely Makhwara</h1>
+            <p>A passionate software developer with expertise in JavaScript, HTML, CSS, SQL, and Photoshop</p>
+            <a href="#projects" class="btn">Check out my work</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="/images/profile-pic.jpeg" alt="About Me Image" class="profile-pic">
+            <p>
+                Hi, I'm a passionate software developer skilled in HTML, CSS, JavaScript, SQL, and Photoshop. 
+                I enjoy solving complex problems and creating beautiful, functional applications. 
+                With a focus on clean code and modern design principles, I strive to deliver exceptional user experiences.
+            </p>
+        </div>
+    </section>
+    
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <div class="skill-name">HTML</div>
+                <div class="skill-bar">
+                    <div class="skill-level html" data-level="95%"></div> 
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">CSS</div>
+                <div class="skill-bar">
+                    <div class="skill-level css" data-level="90%"></div> 
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-bar">
+                    <div class="skill-level javascript" data-level="80%"></div> 
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">SQL</div>
+                <div class="skill-bar">
+                    <div class="skill-level sql" data-level="77%"></div> 
+            </div>
+            <div class="skill">
+                <div class="skill-name">Figma</div>
+                <div class="skill-bar">
+                    <div class="skill-level figma" data-level="70%"></div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    
+   <!-- Projects Section -->
+   <section id="projects">
+    <h2>My Projects</h2>
+    <div class="filter-buttons">
+        <button onclick="filterProjects('all')">All</button>
+        <button onclick="filterProjects('web')">Web Development</button>
+        <button onclick="filterProjects('figma')">Figma</button>
+        <button onclick="filterProjects('database')">Database Projects</button>
+    </div>
+    <div class="projects-container">
+      
+        <div class="project-card web">
+            <div class="project-image" style="background-image: url('images/Stopwatch\ Web\ Application.png');"></div>
+            <div class="project-info">
+                <h3>Stopwatch Web Application</h3>
+                <p>I developed a comprehensive and fully functional stopwatch web application utilizing HTML, CSS, and JavaScript, 
+                    designed to provide users with an intuitive and responsive timing experience. The application includes essential features, 
+                    such as the ability to start, pause, and reset the stopwatch, allowing users to control the timing precisely as needed. </p>
+                <a href="https://boisterous-moonbeam-2c553d.netlify.app/" target="_blank" class="project-link">View Project</a>
+            </div>
+        </div>
+        <div class="project-card web">
+            <div class="project-image" style="background-image: url('images/weather\ App.png');"></div>
+            <div class="project-info">
+                <h3>Weather Application</h3>
+                <p>I developed a comprehensive, fully functional weather web application that retrieves real-time weather data based on the user’s 
+                    location or a user-provided location. This application was built using HTML, CSS, and JavaScript and integrates seamlessly with
+                     the Weather API to fetch data. </p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+        </div>
+        <div class="project-card web">
+            <div class="project-image" style="background-image: url('images/Tic-Tac-Toe\ Game.png');"></div>
+            <div class="project-info">
+                <h3>Tic-Tac-Toe Game.</h3>
+                <p>I developed a dynamic and interactive Tic-Tac-Toe web application using HTML, CSS, and JavaScript, designed to offer an engaging user experience. 
+                    This project features an intuitive game grid where two players can take turns marking cells with "X" or "O." The application is equipped with logic
+                     to automatically check for winning conditions after each turn, ensuring that players are promptly notified when a victory is achieved or if the game concludes in a draw. </p>
+                <a href="https://princelym24.neocities.org/" class="project-link">View Project</a>
+            </div>
+        </div>
+        <div class="project-card web">
+            <div class="project-image" style="background-image: url('images/javascript\ p1.png');"></div>
+            <div class="project-info">
+                <h3>Simple Calculator</h3>
+                <p>Using HTML, CSS, and JavaScript, I developed a fully functional calculator capable of performing basic mathematical operations.
+                This project involved designing an intuitive user interface with HTML and CSS, ensuring a clean and accessible layout,
+                 while JavaScript provided the logic needed to handle calculations such as addition, subtraction, multiplication, and division.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+        </div>
+        <div class="project-card figma">
+            <div class="project-image" style="background-image: url('images/StudyBuddy.png');"></div>
+            <div class="project-info">
+                <h3>StudyBuddyNetwork Website template</h3>
+                <p>This project marks my second experience using Figma for design, and I am pleased to reflect on the progress I've made since my initial project.
+                    Throughout this endeavor, I applied enhanced design techniques and honed my skills, resulting in a more polished and user-centered outcome.</p>
+                <a href="https://www.figma.com/design/rTcB3FFiCKnwiPNfgUfnsg/StudyBuddyNetwork-Website-template?m=auto&t=36AQocWQJZjCiTIx-6" class="project-link">View Project</a>
+            </div>
+        </div>
+        <div class="project-card figma">
+            <div class="project-image" style="background-image: url('images/Coffee\ Shop\ Mobile\ App.png');"></div>
+            <div class="project-info">
+                <h3>Coffee Shop Mobile App Design</h3>
+                <p>This project represents my initial experience working with Figma as a design tool, marking an important step in my journey toward mastering digital design. 
+                    Approaching Figma for the first time, I dedicated time to learning its interface, features, and functionality, which allowed me to apply new design concepts in a practical setting</p>
+                <a href="https://www.figma.com/design/961yYMf0tQQ8kkgpxi8Vyq/Coffee-Shop-Mobile-App-Design-(Community)?m=auto&t=36AQocWQJZjCiTIx-6" class="project-link">View Project</a>
+            </div>
+        </div>
+        <div class="project-card figma">
+            <div class="project-image" style="background-image: url('');"></div>
+            <div class="project-info">
+                <h3>Coming soon.</h3>
+                <p>Unavaliable!!!</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+        </div>
+        <div class="project-card database">
+            <div class="project-image" style="background-image: url('');"></div>
+            <div class="project-info">
+                <h3>Coming soon.</h3>
+                <p>Unavaliable!!!</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section with Form -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm" action="mailto:your-email@example.com" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Send</button>
+    </form>
+    <p id="form-error" style="color:red;"></p>
+</section>
+
+<footer>
+    <div class="footer-container">
+        <p>&copy; 2024 Princely Makhwara. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://twitter.com/yourprofile" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/princely-makhwara-096285197/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Princely24" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://dribbble.com/yourprofile" target="_blank">
+                <i class="fab fa-dribbble"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
